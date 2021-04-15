@@ -6,15 +6,13 @@ This adds the ability to conveniently configure the streamdeck to trigger TASage
 
 ## Getting started
 
-Compile this project and copy the directory `wtf.tas.tasagentbot.sdPlugin` from the directory `TASagentTwitchBotPlugin/bin/` into `%AppData%/Elgato/StreamDeck/Plugins/`. Quit and reopen the StreamDeck software (be sure to quit the software from the tray icon).
+Download [the latest Release](https://github.com/TASagent/TASagentTwitchBot.StreamDeckPlugin/releases) (or download and compile this project) and copy the directory `wtf.tas.tasagentbot.sdPlugin` into `%AppData%/Elgato/StreamDeck/Plugins/`. Quit and reopen the StreamDeck software (be sure to quit the software from the tray icon).
+
+## Features
 
 All of the plugins conveniently share some global settings so that you're not forced to re-enter the same data over and over again. By default, you will want to set the `Bot URL` field to `http://localhost:5000` and the `Config File` field to `<YOUR_BOT_DIRECTORY>\Config\Config.json` (for example, mine is `C:\Users\tasag\Documents\TASagentBot\Config\Config.json`).
 
-## Authentication
-
 By making direct use of the local Config file on the host, the bot is able to submit all requests authenticated as Admin.
-
-## Features
 
 ### Sound Effect
 
