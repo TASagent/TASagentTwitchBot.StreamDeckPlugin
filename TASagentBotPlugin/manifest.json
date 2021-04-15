@@ -1,0 +1,100 @@
+{
+  "Actions": [
+    {
+      "Icon": "Images/SFXIcon",
+      "Name": "TASagentBot Sound Effect",
+      "States": [
+        {
+          "Image": "Images/SFXIcon",
+          "TitleAlignment": "middle",
+          "FontSize": "11"
+        }
+      ],
+      "SupportedInMultiActions": true,
+      "Tooltip": "Triggers a Sound Effect for TASagentBot",
+      "UUID": "wtf.tas.tasagentbot.sfx",
+      "PropertyInspectorPath": "PropertyInspector/SFX/Index.html"
+    },
+    {
+      "Icon": "Images/VFXIcon",
+      "Name": "TASagentBot Voice Effect",
+      "States": [
+        {
+          "Image": "Images/VFXIcon",
+          "TitleAlignment": "middle",
+          "FontSize": "11"
+        }
+      ],
+      "SupportedInMultiActions": true,
+      "Tooltip": "Triggers a Voice Effect for TASagentBot",
+      "UUID": "wtf.tas.tasagentbot.vfx",
+      "PropertyInspectorPath": "PropertyInspector/VFX/Index.html"
+    },
+    {
+      "Icon": "Images/icon",
+      "Name": "TASagentBot General REST",
+      "States": [
+        {
+          "Image": "Images/action1",
+          "TitleAlignment": "middle",
+          "FontSize": "11"
+        }
+      ],
+      "SupportedInMultiActions": true,
+      "Tooltip": "Triggers a General REST call for TASagentBot",
+      "UUID": "wtf.tas.tasagentbot.rest",
+      "PropertyInspectorPath": "PropertyInspector/REST/Index.html"
+    },
+    {
+      "Icon": "Images/MicMonitorIcon",
+      "Name": "TASagentBot Mic Monitor",
+      "States": [
+        {
+          "Image": "Images/MicMonitorIcon",
+          "TitleAlignment": "middle",
+          "FontSize": "11"
+        }
+      ],
+      "SupportedInMultiActions": false,
+      "Tooltip": "Monitors mic for active audio effects from TASagentBot",
+      "UUID": "wtf.tas.tasagentbot.micmonitor",
+      "PropertyInspectorPath": "PropertyInspector/MicMonitor/Index.html"
+    },
+    {
+      "Icon": "Images/UndeterminedLockIcon",
+      "Name": "TASagentBot Lockdown Monitor",
+      "States": [
+        {
+          "Image": "Images/UndeterminedLockIcon",
+          "TitleAlignment": "middle",
+          "FontSize": "11"
+        }
+      ],
+      "SupportedInMultiActions": false,
+      "Tooltip": "Displays and can toggle current external lockdown status TASagentBot",
+      "UUID": "wtf.tas.tasagentbot.lockdownmonitor",
+      "PropertyInspectorPath": "PropertyInspector/LockdownMonitor/Index.html"
+    }
+  ],
+  "Author": "TASagent",
+  "Description": "Triggers an effect from TASagentBot",
+  "Name": "TASagentBot Effect",
+  "Icon": "Images/pluginIcon",
+  "URL": "https://tas.wtf/",
+  "Version": "1.0",
+  "CodePath": "TASagentBotPlugin.exe",
+  "Category": "TASagentBot",
+  "CategoryIcon": "Images/categoryIcon",
+  "SDKVersion": 2,
+  "Software": {
+    "MinimumVersion": "4.1"
+  },
+  "OS": [
+    {
+      "Platform": "windows",
+      "MinimumVersion": "10"
+    }
+  ],
+  "ApplicationsToMonitor": {
+  }
+}

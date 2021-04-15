@@ -1,0 +1,31 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta name=viewport content="width=device-width,initial-scale=1,maximum-scale=1,minimum-scale=1,user-scalable=no,minimal-ui,viewport-fit=cover">
+    <meta name=apple-mobile-web-app-capable content=yes>
+    <meta name=apple-mobile-web-app-status-bar-style content=black>
+    <title>TASagentBot Voice Effect</title>
+    <link rel="stylesheet" href="../sdpi.css">
+</head>
+<body>
+    <div class="sdpi-wrapper">
+        <div class="sdpi-item">
+            <div class="sdpi-item-label">Voice Effect</div>
+            <input class="sdpi-item-value" placeholder="" value="" id="voiceEffect" oninput="updateSettings()">
+        </div>
+
+        <div class="sdpi-heading">Global TASagentBot Settings</div>
+
+        <div class="sdpi-item">
+            <div class="sdpi-item-label">Bot URL</div>
+            <input class="sdpi-item-value" placeholder="" value="" id="botURL" oninput="updateGlobalSettings()">
+        </div>
+        <div class="sdpi-item">
+            <div class="sdpi-item-label">Config File</div>
+            <input class="sdpi-item-value" placeholder="" value="" id="configFilePath" oninput="updateGlobalSettings()">
+        </div>
+    </div>
+    <script src="Index.js"></script>
+</body>
+</html>
